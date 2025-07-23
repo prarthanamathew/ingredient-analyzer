@@ -1,16 +1,37 @@
 import streamlit as st
-from src.parser import parse_ingredients
-from src.analyzer import load_ingredient_database, analyze_ingredients
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 from rapidfuzz import process
+from src.parser import parse_ingredients
+from src.analyzer import load_ingredient_database, analyze_ingredients
 
-# ------------------ Streamlit Config ------------------ #
+# ------------------ Page Config ------------------ #
 st.set_page_config(page_title="Skincare Ingredient Analyzer", layout="centered")
 
-# ------------------ Load Database ------------------ #
+# ------------------ Load Ingredient Database ------------------ #
 db = load_ingredient_database()
 known_ingredients = list(db['Ingredient'].dropna().unique())
+
+# ------------------ Custom Styling ------------------ #
+st.markdown("""
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+        html, body, [class*="css"] {
+            font-family: 'Raleway', sans-serif;
+        }
+        .stDataFrame th {
+            text-transform: uppercase;
+        }
+        .stDataFrame tbody tr:hover {
+            background-color: #ffe6ee !important;
+        }
+        .stDownloadButton button {
+            background-color: #ff8fab;
+            color: white;
+        }
+    </style>
+""", unsafe_allow_html=True)
 
 # ------------------ Sidebar ------------------ #
 st.sidebar.markdown("### 💡 Why This Tool?")
@@ -26,19 +47,18 @@ st.sidebar.markdown("🧴 Made by Prarthana")
 
 # ------------------ Main Title ------------------ #
 st.title("🧴 Skincare Ingredient Analyzer")
-st.markdown("Start typing or select ingredients below. We'll handle typos and suggest corrections too.")
+st.markdown("Start typing or paste ingredients. We'll correct typos and analyze for safety.")
 
-# ------------------ Ingredient Input ------------------ #
+# ------------------ Input Fields ------------------ #
 selected = st.multiselect("Select Ingredients:", known_ingredients, placeholder="Start typing Aqua, Glycerin, etc...")
-
 manual_input = st.text_area("Or paste ingredients (comma-separated):", height=100, placeholder="e.g. Aqua (Water), Glycrin, Salicylic Acid")
 
-# Combine selected and manual
+# Combine inputs
 all_input = selected.copy()
 if manual_input:
     all_input += [x.strip() for x in manual_input.split(",") if x.strip()]
 
-# ------------------ Analyze ------------------ #
+# ------------------ Analyze Button ------------------ #
 if st.button("🔍 Analyze") and all_input:
     corrected = []
     suggestions = []
@@ -54,15 +74,15 @@ if st.button("🔍 Analyze") and all_input:
                 suggestions.append((ing, match, score))
 
     if suggestions:
-        st.info("We found some possible typos and made suggestions:")
+        st.info("🛠️ We found some possible typos and made suggestions:")
         for wrong, suggested, score in suggestions:
             st.markdown(f"🔸 **{wrong}** → **{suggested}** ({score:.0f}%)")
-    
-    # Run analysis
+
+    # Run ingredient analysis
     results = analyze_ingredients(corrected, db)
     df = pd.DataFrame(results)
 
-    # Clean columns
+    # Clean column names
     df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
     df.rename(columns={
         "ingredient": "Ingredient",
@@ -72,7 +92,7 @@ if st.button("🔍 Analyze") and all_input:
     }, inplace=True)
     df["Risk_Level"] = df["Risk_Level"].str.capitalize()
 
-    # Highlight risk
+    # Style table rows based on risk level
     def highlight_risk(row):
         color = ''
         if row["Risk_Level"].lower() == "high":
@@ -86,20 +106,37 @@ if st.button("🔍 Analyze") and all_input:
     st.subheader("🔎 Full Analysis Table")
     st.dataframe(df.style.apply(highlight_risk, axis=1), use_container_width=True)
 
-    # Warning for high risk
+    # Warning for high-risk ingredients
     high_risk = df[df["Risk_Level"].str.lower() == "high"]
     if not high_risk.empty:
         st.warning("⚠️ High-risk ingredients detected!")
 
-    # Pie chart
-    st.subheader("📊 Ingredient Function Breakdown")
-    func_counts = df["Function"].value_counts()
-    fig, ax = plt.subplots()
-    pinks = ['#ffc0cb', '#ffb6c1', '#ff99aa', '#ff7f9f', '#ff4d6d']
-    ax.pie(func_counts, labels=func_counts.index, autopct='%1.1f%%', colors=pinks, startangle=90)
-    ax.set_title("Ingredient Functions")
+    # ------------------ Risk Heatmap ------------------ #
+    st.subheader("🔥 Ingredient Risk Heatmap")
+
+    risk_mapping = {'Low': 1, 'Medium': 2, 'High': 3}
+    df['Risk_Score'] = df['Risk_Level'].map(risk_mapping)
+
+    heat_df = pd.DataFrame({
+        'Ingredient': df['Ingredient'],
+        'Risk Score': df['Risk_Score']
+    }).set_index('Ingredient')
+
+    fig, ax = plt.subplots(figsize=(6, max(1, len(heat_df) * 0.3)))
+    sns.heatmap(
+        heat_df.T,
+        cmap=['#98fb98', '#ffb347', '#ff4d6d'],
+        cbar=False,
+        linewidths=0.5,
+        ax=ax,
+        annot=True,
+        fmt="d"
+    )
+    ax.set_xlabel("Ingredients")
+    ax.set_ylabel("")
+    ax.set_title("Risk Heatmap (Low → High Risk)")
     st.pyplot(fig)
 
-    # Download
+    # ------------------ Download Button ------------------ #
     csv = df.to_csv(index=False).encode("utf-8")
     st.download_button("📥 Download CSV", csv, "ingredient_report.csv", "text/csv")
