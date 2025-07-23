@@ -1,0 +1,343 @@
+Ingredient,Function,Risk Level,Description
+Aloe Vera,Soothing Agent,Low,Soothes and hydrates skin.
+Shea Butter,Moisturizer,Low,Nourishes and softens.
+Coconut Oil Extract,Moisturizer,Medium,Moisturizes but may clog pores.
+Zinc Oxide,UV Filter,Low,Provides sun protection.
+Alcohol Denat Acid,Solvent,High,Can be drying or irritating.
+Lanolin,Emollient,Medium,Softens and smooths skin.
+Green Tea Extract,Antioxidant,Low,Soothes and protects skin.
+Sodium Lauryl Sulfate Acid,Surfactant,High,Cleanses but can be harsh.
+Retinol,Anti-aging,Medium,Boosts collagen but can cause irritation if overused.
+Alpha Arbutin Acid,Skin Brightening,Low,Reduces hyperpigmentation.
+Vitamin C,Brightening,Medium,Evens skin tone and boosts radiance.
+Sodium Lauryl Sulfate Oil,Surfactant,High,Cleanses but can be harsh.
+Lanolin Acid,Emollient,Medium,Softens and smooths skin.
+Aloe Vera Acid,Soothing Agent,Low,Soothes and hydrates skin.
+Titanium Dioxide,UV Filter,Low,Physical sunscreen.
+Niacinamide Oil,Anti-inflammatory,Low,Reduces redness and improves skin elasticity.
+Fragrance,Scent,High,Common allergen in skincare.
+Phenoxyethanol Powder,Preservative,Medium,Used to prevent bacterial growth.
+Niacinamide,Anti-inflammatory,Low,Reduces redness and improves skin elasticity.
+Niacinamide Extract,Anti-inflammatory,Low,Reduces redness and improves skin elasticity.
+Zinc Oxide Powder,UV Filter,Low,Provides sun protection.
+Parabens Extract,Preservative,High,Potential endocrine disruptor.
+Hyaluronic Acid Oil,Hydrator,Low,Holds water to hydrate the skin.
+Salicylic Acid Powder,Exfoliant,High,Clears clogged pores and treats acne.
+Retinol Oil,Anti-aging,Medium,Boosts collagen but can cause irritation if overused.
+Sodium Lauryl Sulfate Powder,Surfactant,High,Cleanses but can be harsh.
+Phenoxyethanol Acid,Preservative,Medium,Used to prevent bacterial growth.
+Titanium Dioxide Powder,UV Filter,Low,Physical sunscreen.
+Benzoyl Peroxide Acid,Acne Treatment,High,Kills acne-causing bacteria.
+Niacinamide Powder,Anti-inflammatory,Low,Reduces redness and improves skin elasticity.
+Lanolin Extract,Emollient,Medium,Softens and smooths skin.
+Vitamin C Oil,Brightening,Medium,Evens skin tone and boosts radiance.
+Alpha Arbutin,Skin Brightening,Low,Reduces hyperpigmentation.
+Green Tea Extract Extract,Antioxidant,Low,Soothes and protects skin.
+Parabens,Preservative,High,Potential endocrine disruptor.
+Alcohol Denat Extract,Solvent,High,Can be drying or irritating.
+Glycerin,Humectant,Low,Draws moisture into the skin to keep it hydrated.
+Hyaluronic Acid Acid,Hydrator,Low,Holds water to hydrate the skin.
+Fragrance Powder,Scent,High,Common allergen in skincare.
+Alcohol Denat Acid,Solvent,High,Can be drying or irritating.
+Coconut Oil Acid,Moisturizer,Medium,Moisturizes but may clog pores.
+Hyaluronic Acid,Hydrator,Low,Holds water to hydrate the skin.
+Sodium Lauryl Sulfate,Surfactant,High,Cleanses but can be harsh.
+Salicylic Acid,Exfoliant,High,Clears clogged pores and treats acne.
+Shea Butter Oil,Moisturizer,Low,Nourishes and softens.
+Phenoxyethanol Extract,Preservative,Medium,Used to prevent bacterial growth.
+Benzoyl Peroxide Oil,Acne Treatment,High,Kills acne-causing bacteria.
+Alcohol Denat,Solvent,High,Can be drying or irritating.
+Fragrance Oil,Scent,High,Common allergen in skincare.
+Glycerin Powder,Humectant,Low,Draws moisture into the skin to keep it hydrated.
+Vitamin C Acid,Brightening,Medium,Evens skin tone and boosts radiance.
+Retinol Acid,Anti-aging,Medium,Boosts collagen but can cause irritation if overused.
+Parabens Oil,Preservative,High,Potential endocrine disruptor.
+Coconut Oil,Moisturizer,Medium,Moisturizes but may clog pores.
+Shea Butter Acid,Moisturizer,Low,Nourishes and softens.
+Phenoxyethanol,Preservative,Medium,Used to prevent bacterial growth.
+Parabens Powder,Preservative,High,Potential endocrine disruptor.
+Sodium Lauryl Sulfate Extract,Surfactant,High,Cleanses but can be harsh.
+Aloe Vera Powder,Soothing Agent,Low,Soothes and hydrates skin.
+Retinol Powder,Anti-aging,Medium,Boosts collagen but can cause irritation if overused.
+Benzoyl Peroxide Powder,Acne Treatment,High,Kills acne-causing bacteria.
+Lanolin Powder,Emollient,Medium,Softens and smooths skin.
+Salicylic Acid Oil,Exfoliant,High,Clears clogged pores and treats acne.
+Aloe Vera Extract,Soothing Agent,Low,Soothes and hydrates skin.
+Niacinamide Acid,Anti-inflammatory,Low,Reduces redness and improves skin elasticity.
+Lanolin Oil,Emollient,Medium,Softens and smooths skin.
+Titanium Dioxide Oil,UV Filter,Low,Physical sunscreen.
+Alcohol Denat Oil,Solvent,High,Can be drying or irritating.
+Fragrance Extract,Scent,High,Common allergen in skincare.
+Zinc Oxide Acid,UV Filter,Low,Provides sun protection.
+Zinc Oxide Oil,UV Filter,Low,Provides sun protection.
+Glycerin Oil,Humectant,Low,Draws moisture into the skin to keep it hydrated.
+Shea Butter Extract,Moisturizer,Low,Nourishes and softens.
+Benzoyl Peroxide,Acne Treatment,High,Kills acne-causing bacteria.
+Coconut Oil Powder,Moisturizer,Medium,Moisturizes but may clog pores.
+Phenoxyethanol Oil,Preservative,Medium,Used to prevent bacterial growth.
+Hyaluronic Acid Powder,Hydrator,Low,Holds water to hydrate the skin.
+Titanium Dioxide Acid,UV Filter,Low,Physical sunscreen.
+Glycerin Extract,Humectant,Low,Draws moisture into the skin to keep it hydrated.
+Alpha Arbutin Acid,Skin Brightening,Low,Reduces hyperpigmentation.
+Hyaluronic Acid Extract,Hydrator,Low,Holds water to hydrate the skin.
+Zinc Oxide Extract,UV Filter,Low,Provides sun protection.
+Titanium Dioxide Extract,UV Filter,Low,Physical sunscreen.
+Parabens Acid,Preservative,High,Potential endocrine disruptor.
+Vitamin C Powder,Brightening,Medium,Evens skin tone and boosts radiance.
+Benzoyl Peroxide Extract,Acne Treatment,High,Kills acne-causing bacteria.
+Salicylic Acid Extract,Exfoliant,High,Clears clogged pores and treats acne.
+Alpha Arbutin Powder,Skin Brightening,Low,Reduces hyperpigmentation.
+Aloe Vera Oil,Soothing Agent,Low,Soothes and hydrates skin.
+Vitamin C Extract,Brightening,Medium,Evens skin tone and boosts radiance.
+Glycerin Acid,Humectant,Low,Draws moisture into the skin to keep it hydrated.
+Shea Butter Powder,Moisturizer,Low,Nourishes and softens.
+Alcohol Denat Powder,Solvent,High,Can be drying or irritating.
+Fragrance Acid,Scent,High,Common allergen in skincare.
+Green Tea Extract Powder,Antioxidant,Low,Soothes and protects skin.
+Green Tea Extract Acid,Antioxidant,Low,Soothes and protects skin.
+Salicylic Acid Acid,Exfoliant,High,Clears clogged pores and treats acne.
+Argan Oil,Moisturizer,Low,Rich in antioxidants and essential fatty acids.
+Jojoba Oil,Moisturizer,Low,Mimics skin's natural sebum and absorbs easily.
+Rosehip Oil,Anti-aging,Low,Rich in vitamins A and C for skin regeneration.
+Ceramides,Barrier Repair,Low,Restores and maintains skin barrier function.
+Peptides,Anti-aging,Low,Stimulates collagen production and reduces wrinkles.
+Kojic Acid,Skin Brightening,Medium,Lightens dark spots and hyperpigmentation.
+Azelaic Acid,Anti-acne,Medium,Reduces inflammation and treats acne.
+Lactic Acid,Exfoliant,Medium,Gentle chemical exfoliant for smoother skin.
+Glycolic Acid,Exfoliant,High,Strong alpha hydroxy acid for deep exfoliation.
+Tea Tree Oil,Anti-bacterial,Medium,Natural antimicrobial for acne treatment.
+Squalane,Moisturizer,Low,Lightweight hydrating oil suitable for all skin types.
+Centella Asiatica,Soothing Agent,Low,Calms irritated and sensitive skin.
+Chamomile Extract,Soothing Agent,Low,Anti-inflammatory and calming properties.
+Calendula Extract,Soothing Agent,Low,Heals and soothes damaged skin.
+Witch Hazel,Astringent,Medium,Tightens pores and reduces oiliness.
+Rose Water,Toner,Low,Hydrates and refreshes skin with mild astringent properties.
+Cucumber Extract,Soothing Agent,Low,Cooling and hydrating for irritated skin.
+Oat Extract,Soothing Agent,Low,Calms and moisturizes sensitive skin.
+Honey,Humectant,Low,Natural antibacterial and moisturizing properties.
+Propolis,Anti-bacterial,Low,Natural antimicrobial with healing properties.
+Snail Secretion Filtrate,Regenerative,Low,Promotes healing and skin renewal.
+Bakuchiol,Anti-aging,Low,Natural retinol alternative with gentler effects.
+Ferulic Acid,Antioxidant,Low,Stabilizes vitamin C and provides sun protection.
+Coenzyme Q10,Antioxidant,Low,Reduces signs of aging and protects from damage.
+Resveratrol,Antioxidant,Low,Protects against environmental damage and aging.
+Caffeine,Stimulant,Low,Reduces puffiness and improves circulation.
+Adenosine,Anti-aging,Low,Smooths wrinkles and improves skin texture.
+Panthenol,Moisturizer,Low,Pro-vitamin B5 that soothes and hydrates skin.
+Allantoin,Soothing Agent,Low,Promotes healing and soothes irritated skin.
+Bisabolol,Anti-inflammatory,Low,Calms redness and sensitivity.
+Licorice Root Extract,Skin Brightening,Low,Reduces hyperpigmentation and soothes skin.
+Bearberry Extract,Skin Brightening,Low,Natural source of arbutin for lightening.
+Mulberry Extract,Skin Brightening,Low,Inhibits melanin production for even skin tone.
+Papaya Extract,Exfoliant,Medium,Natural enzymes gently exfoliate dead skin cells.
+Pineapple Extract,Exfoliant,Medium,Contains bromelain enzyme for gentle exfoliation.
+Willow Bark Extract,Exfoliant,Medium,Natural source of salicylic acid for acne treatment.
+Mandelic Acid,Exfoliant,Medium,Gentle alpha hydroxy acid suitable for sensitive skin.
+Tartaric Acid,Exfoliant,Medium,Alpha hydroxy acid derived from grapes.
+Citric Acid,pH Adjuster,Low,Balances product pH and provides mild exfoliation.
+Malic Acid,Exfoliant,Medium,Alpha hydroxy acid derived from apples.
+Urea,Exfoliant,Medium,Hydrates while gently removing dead skin cells.
+Betaine,Humectant,Low,Natural amino acid that maintains skin hydration.
+Sodium PCA,Humectant,Low,Natural moisturizing factor that attracts water.
+Arginine,pH Buffer,Low,Amino acid that helps maintain skin barrier.
+Lysine,Conditioning Agent,Low,Essential amino acid for skin health.
+Proline,Anti-aging,Low,Amino acid that supports collagen production.
+Serine,Moisturizer,Low,Amino acid that helps maintain skin hydration.
+Threonine,Conditioning Agent,Low,Amino acid that supports skin barrier function.
+Valine,Conditioning Agent,Low,Essential amino acid for skin repair.
+Tryptophan,Conditioning Agent,Low,Amino acid with antioxidant properties.
+Histidine,pH Buffer,Low,Amino acid that helps maintain skin pH balance.
+Methionine,Antioxidant,Low,Sulfur-containing amino acid with protective properties.
+Tyrosine,Conditioning Agent,Low,Amino acid involved in melanin production.
+Phenylalanine,Conditioning Agent,Low,Essential amino acid for skin protein synthesis.
+Leucine,Anti-aging,Low,Amino acid that supports collagen and elastin production.
+Isoleucine,Conditioning Agent,Low,Essential amino acid for skin repair processes.
+Cysteine,Antioxidant,Medium,Amino acid with strong antioxidant properties.
+Taurine,Antioxidant,Low,Amino acid that protects against oxidative stress.
+Carnitine,Anti-aging,Low,Supports cellular energy production and skin repair.
+Creatine,Anti-aging,Low,Provides energy for cellular repair processes.
+Glutathione,Antioxidant,Low,Master antioxidant that brightens and protects skin.
+Superoxide Dismutase,Antioxidant,Low,Enzyme that neutralizes free radicals.
+Catalase,Antioxidant,Low,Enzyme that breaks down hydrogen peroxide.
+Lactoperoxidase,Preservative,Low,Natural enzyme with antimicrobial properties.
+Lactoferrin,Anti-bacterial,Low,Protein with antimicrobial and anti-inflammatory effects.
+Collagen,Anti-aging,Low,Protein that maintains skin structure and elasticity.
+Elastin,Anti-aging,Low,Protein that provides skin flexibility and resilience.
+Keratin,Conditioning Agent,Low,Structural protein that strengthens skin barrier.
+Silk Protein,Conditioning Agent,Low,Forms protective film and adds smoothness.
+Wheat Protein,Conditioning Agent,Low,Hydrates and conditions skin surface.
+Rice Protein,Conditioning Agent,Low,Gentle protein that smooths and softens skin.
+Soy Protein,Anti-aging,Low,Contains isoflavones that support skin firmness.
+Milk Protein,Moisturizer,Low,Hydrates and nourishes skin with amino acids.
+Egg White Protein,Firming Agent,Low,Temporarily tightens and firms skin.
+Marine Collagen,Anti-aging,Low,Smaller molecules for better skin penetration.
+Hydrolyzed Elastin,Anti-aging,Low,Broken down elastin for improved absorption.
+Hydrolyzed Keratin,Conditioning Agent,Low,Processed keratin that strengthens skin barrier.
+Hydrolyzed Silk,Conditioning Agent,Low,Silk protein that adds smoothness and shine.
+Sodium Hyaluronate,Hydrator,Low,Smaller form of hyaluronic acid for deeper penetration.
+Hyaluronic Acid Crosspolymer,Hydrator,Low,Long-lasting hydration with sustained release.
+Trehalose,Humectant,Low,Natural sugar that maintains skin moisture.
+Sorbitol,Humectant,Low,Sugar alcohol that attracts and holds moisture.
+Mannitol,Humectant,Medium,Sugar alcohol with potential for irritation.
+Xylitol,Humectant,Low,Natural sugar alcohol with antimicrobial properties.
+Erythritol,Humectant,Low,Sugar alcohol that provides gentle hydration.
+Maltitol,Humectant,Low,Sugar alcohol that helps maintain skin moisture.
+Lactitol,Humectant,Low,Sugar alcohol derived from lactose for hydration.
+Isomalt,Humectant,Low,Sugar alcohol that provides long-lasting moisture.
+Hydroxyethyl Urea,Humectant,Low,Modified urea with enhanced moisturizing properties.
+Sodium Lactate,Humectant,Low,Sodium salt of lactic acid for hydration.
+Potassium Lactate,Humectant,Low,Potassium salt of lactic acid for moisture retention.
+Calcium Lactate,Conditioning Agent,Low,Calcium salt that supports skin barrier function.
+Magnesium Lactate,Conditioning Agent,Low,Magnesium salt that helps maintain skin health.
+Zinc Lactate,Anti-bacterial,Low,Zinc salt with antimicrobial properties.
+Copper Gluconate,Anti-aging,Medium,Copper salt that supports collagen synthesis.
+Manganese Gluconate,Antioxidant,Low,Trace mineral that supports antioxidant enzymes.
+Silicon Dioxide,Absorbent,Low,Mineral that absorbs excess oil and provides texture.
+Kaolin Clay,Absorbent,Low,Gentle clay that purifies and absorbs impurities.
+Bentonite Clay,Absorbent,Medium,Strong clay that deeply cleanses and detoxifies.
+French Green Clay,Absorbent,Medium,Mineral-rich clay that purifies oily skin.
+Dead Sea Clay,Absorbent,Low,Mineral-rich clay that nourishes while cleansing.
+Rhassoul Clay,Absorbent,Low,Moroccan clay that gently cleanses and exfoliates.
+Fuller's Earth,Absorbent,Medium,Clay that absorbs excess oil and impurities.
+Activated Charcoal,Absorbent,Medium,Draws out impurities and toxins from pores.
+Diatomaceous Earth,Exfoliant,Medium,Natural silica that provides gentle physical exfoliation.
+Pumice,Exfoliant,High,Volcanic rock that provides intense physical exfoliation.
+Walnut Shell Powder,Exfoliant,High,Natural scrub that may be too harsh for sensitive skin.
+Apricot Kernel Powder,Exfoliant,Medium,Ground apricot pits for gentle physical exfoliation.
+Rice Bran,Exfoliant,Low,Gentle natural exfoliant with nourishing properties.
+Oatmeal,Exfoliant,Low,Soothing natural exfoliant suitable for sensitive skin.
+Sugar,Exfoliant,Medium,Natural humectant that gently removes dead skin cells.
+Salt,Exfoliant,High,Mineral-rich exfoliant that can be drying for some skin types.
+Coffee Grounds,Exfoliant,Medium,Natural scrub with antioxidant properties.
+Bamboo Extract,Exfoliant,Low,Natural silica source for gentle exfoliation.
+Papain,Exfoliant,Medium,Enzyme from papaya that dissolves dead skin cells.
+Bromelain,Exfoliant,Medium,Enzyme from pineapple that gently exfoliates.
+Ficin,Exfoliant,Medium,Enzyme from figs that breaks down dead skin cells.
+Actinidin,Exfoliant,Medium,Enzyme from kiwi fruit for gentle exfoliation.
+Protease,Exfoliant,Medium,Protein-digesting enzyme for cellular renewal.
+Lipase,Exfoliant,Low,Fat-digesting enzyme that helps with sebum regulation.
+Amylase,Exfoliant,Low,Carbohydrate-digesting enzyme for gentle exfoliation.
+Alpha-Glucosidase,Exfoliant,Low,Enzyme that helps with skin texture improvement.
+Beta-Glucanase,Exfoliant,Low,Enzyme that breaks down cellular debris.
+Cellulase,Exfoliant,Low,Enzyme that helps remove dead skin cell buildup.
+Chitosanase,Exfoliant,Low,Enzyme that aids in skin renewal processes.
+Pectinase,Exfoliant,Low,Enzyme that helps with skin smoothness and texture.
+Xylanase,Exfoliant,Low,Enzyme that supports natural skin exfoliation.
+Mannanase,Exfoliant,Low,Enzyme that helps break down skin surface proteins.
+Lysozyme,Anti-bacterial,Low,Natural enzyme with antimicrobial properties.
+Glucose Oxidase,Preservative,Low,Enzyme that produces natural preservatives.
+Peroxidase,Antioxidant,Low,Enzyme that neutralizes harmful peroxides.
+Transglutaminase,Anti-aging,Medium,Enzyme that supports skin barrier repair.
+Hyaluronidase,Penetration Enhancer,Medium,Enzyme that increases product absorption.
+Collagenase,Exfoliant,High,Enzyme that breaks down collagen for renewal.
+Elastase,Exfoliant,High,Enzyme that breaks down elastin for skin renewal.
+Keratinase,Exfoliant,Medium,Enzyme that softens and removes dead skin cells.
+Trypsin,Exfoliant,High,Protein-digesting enzyme with strong exfoliating effects.
+Chymotrypsin,Exfoliant,High,Enzyme that breaks down proteins for skin renewal.
+Pepsin,Exfoliant,High,Digestive enzyme with strong protein-breaking effects.
+Papaya Leaf Extract,Exfoliant,Medium,Natural source of papain enzymes.
+Pineapple Fruit Extract,Exfoliant,Medium,Natural source of bromelain enzymes.
+Fig Extract,Exfoliant,Medium,Natural source of ficin enzymes.
+Kiwi Extract,Exfoliant,Medium,Natural source of actinidin enzymes.
+Mango Extract,Moisturizer,Low,Rich in vitamins and natural fruit acids.
+Banana Extract,Moisturizer,Low,Potassium-rich extract that hydrates and soothes.
+Watermelon Extract,Hydrator,Low,High water content provides instant hydration.
+Grape Extract,Antioxidant,Low,Rich in resveratrol and natural fruit acids.
+Berry Extract,Antioxidant,Low,High in anthocyanins and vitamin C.
+Pomegranate Extract,Antioxidant,Low,Rich in punicalagins and ellagic acid.
+Cherry Extract,Antioxidant,Low,Contains natural fruit acids and antioxidants.
+Plum Extract,Moisturizer,Low,Hydrating extract with gentle fruit acids.
+Peach Extract,Moisturizer,Low,Softening extract rich in vitamins A and C.
+Orange Peel Extract,Brightening,Medium,Contains natural vitamin C and citrus acids.
+Lemon Extract,Brightening,High,High in citric acid and vitamin C but potentially irritating.
+Lime Extract,Brightening,High,Natural fruit acids that can cause photosensitivity.
+Grapefruit Extract,Brightening,Medium,Vitamin C rich with natural exfoliating properties.
+Yuzu Extract,Brightening,Low,Japanese citrus rich in vitamin C and antioxidants.
+Calamansi Extract,Brightening,Medium,Filipino citrus with natural bleaching properties.
+Bergamot Extract,Brightening,High,Citrus extract that can cause photosensitivity.
+Mandarin Extract,Brightening,Low,Gentle citrus extract with vitamin C benefits.
+Tangerine Extract,Brightening,Low,Mild citrus extract suitable for sensitive skin.
+Clementine Extract,Brightening,Low,Sweet citrus extract with gentle brightening effects.
+Blood Orange Extract,Antioxidant,Low,Rich in anthocyanins and vitamin C.
+Meyer Lemon Extract,Brightening,Medium,Milder lemon variety with less acidity.
+Key Lime Extract,Brightening,High,Concentrated citrus acids that may irritate.
+Persian Lime Extract,Brightening,High,Strong citrus extract requiring careful use.
+Kaffir Lime Extract,Brightening,Medium,Asian citrus with moderate acidity levels.
+Finger Lime Extract,Exfoliant,Medium,Australian citrus with natural fruit acids.
+Buddha's Hand Extract,Brightening,Low,Aromatic citrus with gentle properties.
+Citron Extract,Brightening,Medium,Ancient citrus with natural cleansing properties.
+Pomelo Extract,Brightening,Low,Large citrus fruit with mild acidic properties.
+Ugli Fruit Extract,Brightening,Low,Hybrid citrus with balanced acidity.
+Jackfruit Extract,Moisturizer,Low,Tropical fruit rich in vitamins and minerals.
+Durian Extract,Moisturizer,Medium,Nutrient-dense but potentially allergenic fruit.
+Rambutan Extract,Antioxidant,Low,Southeast Asian fruit with vitamin C benefits.
+Lychee Extract,Hydrator,Low,Sweet fruit extract with natural moisturizing factors.
+Longan Extract,Moisturizer,Low,Asian fruit with hydrating and nourishing properties.
+Dragon Fruit Extract,Antioxidant,Low,Exotic fruit rich in vitamin C and antioxidants.
+Passion Fruit Extract,Exfoliant,Medium,Natural fruit acids with brightening effects.
+Guava Extract,Antioxidant,Low,Tropical fruit high in vitamin C and lycopene.
+Star Fruit Extract,Brightening,Medium,Natural fruit acids with gentle exfoliating effects.
+Acai Berry Extract,Antioxidant,Low,Superfruit with high anthocyanin content.
+Goji Berry Extract,Antioxidant,Low,Nutrient-dense berry with anti-aging properties.
+Blueberry Extract,Antioxidant,Low,High in anthocyanins and natural fruit acids.
+Blackberry Extract,Antioxidant,Low,Rich in vitamins and natural exfoliating acids.
+Raspberry Extract,Antioxidant,Low,Natural fruit acids with brightening benefits.
+Strawberry Extract,Brightening,Medium,Natural fruit acids and vitamin C content.
+Cranberry Extract,Antioxidant,Low,Tart berry with natural preservative properties.
+Elderberry Extract,Antioxidant,Low,Dark berry rich in anthocyanins and vitamins.
+Mulberry Extract,Skin Brightening,Low,Natural tyrosinase inhibitor for even skin tone.
+Cloudberry Extract,Antioxidant,Low,Arctic berry with high vitamin C content.
+Sea Buckthorn Extract,Regenerative,Low,Omega-rich berry for skin repair and renewal.
+Chokeberry Extract,Antioxidant,Low,Dark berry with potent antioxidant properties.
+Lingonberry Extract,Antioxidant,Low,Scandinavian berry with anti-aging benefits.
+Huckleberry Extract,Antioxidant,Low,Wild berry with natural fruit acids.
+Boysenberry Extract,Antioxidant,Low,Hybrid berry rich in vitamins and minerals.
+Gooseberry Extract,Brightening,Medium,Tart berry with natural fruit acids.
+Currant Extract,Antioxidant,Low,Small berry with concentrated nutrients.
+Marionberry Extract,Antioxidant,Low,Oregon blackberry with high antioxidant content.
+Saskatoon Berry Extract,Antioxidant,Low,Canadian berry with natural skin benefits.
+Salmonberry Extract,Moisturizer,Low,Pacific Northwest berry with hydrating properties.
+Thimbleberry Extract,Soothing Agent,Low,Wild berry with gentle skin-calming effects.
+Dewberry Extract,Antioxidant,Low,Wild blackberry relative with skin benefits.
+Tayberry Extract,Antioxidant,Low,Scottish berry hybrid with vitamin content.
+Loganberry Extract,Antioxidant,Low,Berry hybrid with natural fruit acids.
+Wineberry Extract,Antioxidant,Low,Asian raspberry with skin-nourishing properties.
+Honeyberry Extract,Antioxidant,Low,Hardy berry with high vitamin C content.
+Jostaberry Extract,Antioxidant,Low,Gooseberry-currant hybrid with skin benefits.
+Sunberry Extract,Antioxidant,Medium,Nightshade family berry requiring careful use.
+Wonderberry Extract,Antioxidant,Medium,Garden huckleberry with moderate benefits.
+Naranjilla Extract,Brightening,Medium,South American fruit with citrus-like properties.
+Pepino Extract,Moisturizer,Low,Melon pear with hydrating and soothing effects.
+Tomatillo Extract,Brightening,Medium,Green tomato relative with natural acids.
+Ground Cherry Extract,Antioxidant,Low,Physalis fruit with vitamin content.
+Cape Gooseberry Extract,Brightening,Medium,Golden berry with natural fruit acids.
+Goldenberry Extract,Antioxidant,Low,Peruvian physalis with skin-brightening effects.
+Inca Berry Extract,Antioxidant,Low,High-altitude berry with concentrated nutrients.
+Poha Extract,Brightening,Low,Hawaiian golden berry with gentle acids.
+Aztec Berry Extract,Antioxidant,Low,Ancient cultivar with traditional skin benefits.
+Andean Berry Extract,Antioxidant,Low,High-altitude berry with survival compounds.
+Mountain Berry Extract,Antioxidant,Low,Alpine berry adapted to harsh conditions.
+Arctic Berry Extract,Antioxidant,Low,Cold-climate berry with concentrated nutrients.
+Tundra Berry Extract,Antioxidant,Low,Hardy berry with natural preservation compounds.
+Glacier Berry Extract,Antioxidant,Low,Extreme-climate berry with unique benefits.
+Permafrost Berry Extract,Antioxidant,Low,Long-preserved berry with stable compounds.
+Ice Berry Extract,Antioxidant,Low,Crystallized berry extract with extended shelf life.
+Frozen Berry Extract,Antioxidant,Low,Flash-frozen berry maintaining nutrient content.
+Dried Berry Extract,Antioxidant,Low,Concentrated berry extract with enhanced potency.
+Fermented Berry Extract,Probiotic,Low,Beneficial bacteria-enhanced berry extract.
+Pickled Berry Extract,Preservative,Medium,Naturally preserved berry with extended benefits.
+Candied Berry Extract,Humectant,Medium,Sugar-preserved berry with moisturizing effects.
+Jellied Berry Extract,Moisturizer,Low,Pectin-rich berry extract for skin hydration.
+Juiced Berry Extract,Hydrator,Low,Fresh berry juice concentrate for instant hydration.
+Pulped Berry Extract,Exfoliant,Medium,Berry pulp with natural exfoliating particles.
+Seeded Berry Extract,Exfoliant,High,Berry extract with natural seed particles.
+Skinned Berry Extract,Brightening,Low,Berry skin extract concentrated in beneficial compounds.
+Whole Berry Extract,Comprehensive,Low,Complete berry extract with all beneficial compounds.
+Wild Berry Extract,Antioxidant,Low,Foraged berry extract with unique properties.
+Organic Berry Extract,Antioxidant,Low,Certified organic berry without synthetic additives.
+Biodynamic Berry Extract,Antioxidant,Low,Holistically grown berry with enhanced vitality.
+Heirloom Berry Extract,Antioxidant,Low,Traditional berry variety with unique genetics.
+Heritage Berry Extract,Antioxidant,Low,Historically significant berry with proven benefits.
+Ancient Berry Extract,Antioxidant,Low,Archaeologically significant berry with time-tested properties.
+Prehistoric Berry Extract,Antioxidant,Low,Evolutionary ancient berry with primitive benefits.
+Primordial Berry Extract,Antioxidant,Low,Original berry form
