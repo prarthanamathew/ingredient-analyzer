@@ -1,25 +1,40 @@
-# 🧴 Skincare Ingredient Analyzer
+🧴 Skincare Ingredient Analyzer
+A Streamlit web application that analyzes skincare ingredients to detect harmful or risky chemicals. It parses ingredient lists, cross-references a database, highlights potential health risks, and provides visual insights.
 
-A web-based app that analyzes skincare product ingredients, highlighting their functions and risk levels.
+🚀 Features
+📝 Smart Ingredient Input
 
-## 🚀 Features
+Type or paste ingredients (comma-separated)
 
-- Paste a list of skincare ingredients (comma-separated) and get:
-  - Detailed function of each ingredient
-  - Risk level: Low, Medium, High
-  - Description for informed decisions
-- Color-coded ingredient table
-- Pie chart showing function breakdown
-- Downloadable CSV report
+Dropdown with suggestions
 
-## 🛠️ Tech Stack
+Typos are auto-corrected with similarity matching (using RapidFuzz)
 
-- **Frontend/UI**: Streamlit (customized with HTML/CSS)
-- **Backend**: Python
-- **Visualization**: Matplotlib
-- **Data Processing**: Pandas
-- **Packaging & Structure**: Modular Python files in `/src`
-- **Deployment Ready**: Designed to be hosted on Streamlit Cloud or locally
+🧪 Ingredient Risk Analysis
+
+Detects and flags high-risk, medium, or low-risk components
+
+Provides functional and descriptive insight for each ingredient
+
+🔥 Risk Heatmap Visualization
+
+Color-coded heatmap for quick glance at ingredient risk levels
+
+📥 Download Report
+
+Export your analysis as a CSV file
 
 
+🛠️ Tech Stack
+Python
+
+Streamlit
+
+Pandas
+
+Matplotlib + Seaborn
+
+RapidFuzz (fuzzy matching)
+
+Git + GitHub (version control & deployment)
 
