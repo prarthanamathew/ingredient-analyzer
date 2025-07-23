@@ -21,5 +21,5 @@ A web-based app that analyzes skincare product ingredients, highlighting their f
 - **Packaging & Structure**: Modular Python files in `/src`
 - **Deployment Ready**: Designed to be hosted on Streamlit Cloud or locally
 
-## 📂 Folder Structure
+
 
